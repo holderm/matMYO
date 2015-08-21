@@ -1,5 +1,6 @@
-
-% Check for sdk
+% Check for SDK
+% Make sure you run Visual Studio 2013 SDK (tested on Windows only)
+% mex -setup:'C:\"PathtoMatlab"\R2014b\bin\win64\mexopts\msvcpp2013.xml' C++
 
 clc
 clear
